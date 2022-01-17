@@ -190,6 +190,5 @@ if __name__ == '__main__':
   test_pred = myclass.main()
   plt.rcParams["figure.figsize"] = (10, 5)
   myclass.loss_plot()
-  print(test_pred.head(20))
 
 
